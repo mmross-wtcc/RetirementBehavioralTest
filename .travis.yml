@@ -4,4 +4,4 @@ python:
    - "nightly"
 install:
    - "pip install pytest-bdd"
-script: python -m pytest
+script: pytest
