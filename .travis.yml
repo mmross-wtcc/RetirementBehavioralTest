@@ -4,4 +4,4 @@ python:
    - "nightly"
 install:
    - "pip install pytest-bdd"
-script: pytest
+script: python -m pytest gitremote
